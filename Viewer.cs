@@ -8,6 +8,7 @@
     using System.Threading.Tasks;
     using System.Windows.Forms;
 
+
     /// <summary>
     /// Defines the <see cref="Viewer" />.
     /// </summary>
@@ -122,8 +123,8 @@
                 if (videoSource.IsRunning)
                 {
                     videoSource.DisplayPropertyPage(IntPtr.Zero);
-                    var x = videoSource.VideoCapabilities;
-                    var y = videoSource.VideoResolution;
+                    //var x = videoSource.VideoCapabilities;
+                    //var y = videoSource.VideoResolution;
 
                 }
             }
